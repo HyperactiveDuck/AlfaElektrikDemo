@@ -1,15 +1,4 @@
-/*
 
-Tooplate 2127 Little Fashion
-
-https://www.tooplate.com/view/2127-little-fashion
-
-*/
-
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
 :root {
   --white-color:                #FFFFFF;
   --primary-color:              #FF4400;
@@ -524,6 +513,18 @@ strong {
 
 .slick-custom {
   position: relative;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 36px;
 }
 
 .slick-custom img {
